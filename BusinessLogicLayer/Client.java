@@ -50,15 +50,12 @@ public class Client {
 
     public Client(){}
 
-    public Client(String _firstName, String _lastName, String _phoneNumber, String _email, String _username,
-     String _password)
+    public Client(String _firstName, String _lastName, String _phoneNumber, String _email)
      {
         this.firstName = _firstName;
         this.lastName = _lastName;
         this.phoneNumber = _phoneNumber;
         this.email = _email;
-        this.username = _username;
-        this.password = _password;
      }
 
      ArrayList<Client> clientList = new ArrayList<Client>();//list to store client information
