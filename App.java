@@ -12,7 +12,6 @@ public class App {
         Booking booking = new Booking();
         boolean login = false, register = false, admin = false, run = true;
         int option;
-        String username = "";
 
         int opt = display.mainMenu();
 
