@@ -60,7 +60,7 @@ public class Client {
 
      ArrayList<Client> clientList = new ArrayList<Client>();//list to store client information
 
-    ArrayList<Client> Register()
+    public ArrayList<Client> Register()
     {
         
         Client client = new Client();

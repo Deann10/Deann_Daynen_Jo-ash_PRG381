@@ -1,6 +1,7 @@
 package BusinessLogicLayer;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.ArrayList;
 
 public class Booking {
         private int bookingID;
@@ -19,6 +20,7 @@ public class Booking {
             this.payment = _payment;
 
         }
+        public Booking(){}
 
         public Menu getMenu(){
             return menu;
@@ -34,5 +36,19 @@ public class Booking {
 
         public Payment getPayment(){
             return payment;
+        }
+
+        public void comfirmedBookings(){
+
+        }
+
+        public void notComfirmedBookings(){
+
+        }
+
+        ArrayList<Booking> bookingList = new ArrayList<Booking>();
+
+        public ArrayList<Booking> bookingList(){
+            return bookingList;
         }
 }
